@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Tutorial</title>
+</head>
+<body>
+    <div class="container">Thus is my Container</div>
+    <script>
+        
+        let jsonobj=
+        {
+    "name": "Umesh",
+    "Number": 977786,
+    "isAdmin": true,
+    "age": 56
+    }
+  
+        console.log(jsonobj);
+        let myJsonstr=JSON.stringify(jsonobj);
+        console.log(myJsonstr);
+        let myJsonparse=JSON.parse(myJsonstr)
+        console.log(myJsonparse);
+    </script>
+</body> 
+</html>
